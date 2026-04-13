@@ -19,9 +19,45 @@ library:
       description: DOE Genesis Mission (DE-FOA-0003612) grant writing. Handles narratives, Excel templates, Zotero references, compliance validation, and iterative 9-reviewer panel review.
       source: https://github.com/restrolla/skills/blob/main/doe-genesis-mission/SKILL.md
 
+    - name: figure-analyzer
+      description: Two-step scientific figure analysis — XML description + panel-by-panel analysis with findings, statistics, and confidence scores.
+      source: https://github.com/restrolla/skills/blob/main/figure-analyzer/SKILL.md
+
+    - name: figure-decomposer
+      description: Decompose publication figures into editable PowerPoint-compatible SVGs using Florence-2 OCR, LLM vision segmentation, and semantic labeling.
+      source: https://github.com/restrolla/skills/blob/main/figure-decomposer/SKILL.md
+
     - name: graphpad-prism
       description: Read, write, and manipulate GraphPad Prism data files (.pzfx, .prism) using Python and pandas. Supports XY/column tables, replicates, and analysis extraction.
       source: https://github.com/restrolla/skills/blob/main/graphpad-prism/SKILL.md
+
+    - name: humanizer
+      description: Remove signs of AI-generated writing by detecting and fixing 38 patterns based on Wikipedia and AI detector research.
+      source: https://github.com/restrolla/skills/blob/main/humanizer/SKILL.md
+
+    - name: nih-grant-writer
+      description: Comprehensive NIH grant writing for R01, R21, DP1, R35 etc. — Specific Aims, Research Strategy, review criteria, and resubmissions.
+      source: https://github.com/restrolla/skills/blob/main/nih-grant-writer/SKILL.md
+
+    - name: nih-reporter
+      description: Search NIH RePORTER database for federally-funded research projects and publications with CSV/JSON/Excel export and funding landscape analysis.
+      source: https://github.com/restrolla/skills/blob/main/nih-reporter/SKILL.md
+
+    - name: nih-sbir-sttr-grant-writer
+      description: NIH SBIR/STTR grant applications — Phase I/II/Fast Track support with milestone plans, commercialization guides, and reviewer response strategies.
+      source: https://github.com/restrolla/skills/blob/main/nih-sbir-sttr-grant-writer/SKILL.md
+
+    - name: notebooklm
+      description: Programmatic API for Google NotebookLM — create notebooks, add sources, generate artifacts, and download results in multiple formats.
+      source: https://github.com/restrolla/skills/blob/main/notebooklm/SKILL.md
+
+    - name: s10-grant-writer
+      description: NIH S10 Shared Instrumentation Grant Implementation Plans (sections A-G) with automated PI research pipeline.
+      source: https://github.com/restrolla/skills/blob/main/s10-grant-writer/SKILL.md
+
+    - name: tpp-analysis
+      description: R analysis pipelines for Thermal Proteome Profiling experiments — preprocessing, spline fitting, differential stats, pathway enrichment, and publication figures.
+      source: https://github.com/restrolla/skills/blob/main/tpp-analysis/SKILL.md
 
     - name: web-search-agent
       description: Parallel web search, scrape, and summarise pipeline using Jina/Brave APIs. Query decomposition, extractive summarisation, Playwright fallback.
