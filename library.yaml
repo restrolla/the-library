@@ -15,6 +15,10 @@ library:
       description: Autonomous long-task execution loop with structured planning. Based on E01 Research's Gameboy methodology.
       source: https://github.com/restrolla/skills/blob/main/autocoder/SKILL.md
 
+    - name: deep-research
+      description: Multi-phase iterative research on any topic using parallel search, source evaluation, and structured synthesis. Produces citation-backed reports. Quick, deep, and comparison modes.
+      source: https://github.com/restrolla/skills/blob/main/deep-research/SKILL.md
+
     - name: doe-genesis-mission
       description: DOE Genesis Mission (DE-FOA-0003612) grant writing. Handles narratives, Excel templates, Zotero references, compliance validation, and iterative 9-reviewer panel review.
       source: https://github.com/restrolla/skills/blob/main/doe-genesis-mission/SKILL.md
@@ -62,6 +66,10 @@ library:
     - name: web-search-agent
       description: Parallel web search, scrape, and summarise pipeline using Jina/Brave APIs. Query decomposition, extractive summarisation, Playwright fallback.
       source: https://github.com/restrolla/skills/blob/main/web-search-agent/SKILL.md
+
+    - name: fireworks-tech-graph
+      description: Generate production-quality SVG technical diagrams from natural language. 7 visual styles, 14+ diagram types (including UML), 40+ product icons, PNG export via rsvg-convert.
+      source: https://github.com/yizhiyanhua-ai/fireworks-tech-graph/blob/main/SKILL.md
 
   agents: []
   prompts: []
