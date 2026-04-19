@@ -31,6 +31,10 @@ library:
       description: Decompose publication figures into editable PowerPoint-compatible SVGs using Florence-2 OCR, LLM vision segmentation, and semantic labeling.
       source: https://github.com/restrolla/skills/blob/main/figure-decomposer/SKILL.md
 
+    - name: latex-document
+      description: Universal LaTeX document skill — 27 templates, 27 scripts, 26 reference guides. Create, compile, OCR, and convert any document to professional PDF. Resumes, theses, posters, exams, cheat sheets, charts, mail merge, diffing, and more.
+      source: https://github.com/restrolla/skills/blob/main/latex-document-skill/SKILL.md
+
     - name: graphpad-prism
       description: Read, write, and manipulate GraphPad Prism data files (.pzfx, .prism) using Python and pandas. Supports XY/column tables, replicates, and analysis extraction.
       source: https://github.com/restrolla/skills/blob/main/graphpad-prism/SKILL.md
