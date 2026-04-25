@@ -67,6 +67,10 @@ library:
       description: R analysis pipelines for Thermal Proteome Profiling experiments — preprocessing, spline fitting, differential stats, pathway enrichment, and publication figures.
       source: https://github.com/restrolla/skills/blob/main/tpp-analysis/SKILL.md
 
+    - name: tikz-figure
+      description: Create publication-quality TikZ figures and PGFPlots data visualizations. Covers schematics, flowcharts, state machines, network graphs, circuit diagrams, data plots, and annotated illustrations with 7-stage workflow and visual self-review.
+      source: https://github.com/restrolla/skills/blob/main/tikz-figure/SKILL.md
+
     - name: web-search-agent
       description: Parallel web search, scrape, and summarise pipeline using Jina/Brave APIs. Query decomposition, extractive summarisation, Playwright fallback.
       source: https://github.com/restrolla/skills/blob/main/web-search-agent/SKILL.md
