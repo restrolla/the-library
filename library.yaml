@@ -67,6 +67,10 @@ library:
       description: R analysis pipelines for Thermal Proteome Profiling experiments — preprocessing, spline fitting, differential stats, pathway enrichment, and publication figures.
       source: https://github.com/restrolla/skills/blob/main/tpp-analysis/SKILL.md
 
+    - name: fragpipe-tmt-analysis
+      description: FragPipe v24.0 headless TMT isobaric proteomics pipeline supporting TMT6-35, Astral/Orbitrap/timsTOF instruments, UniProt proteome downloads, and full project scaffolding.
+      source: https://github.com/restrolla/skills/blob/main/fragpipe-tmt-analysis/SKILL.md
+
     - name: tikz-figure
       description: Create publication-quality TikZ figures and PGFPlots data visualizations. Covers schematics, flowcharts, state machines, network graphs, circuit diagrams, data plots, and annotated illustrations with 7-stage workflow and visual self-review.
       source: https://github.com/restrolla/skills/blob/main/tikz-figure/SKILL.md
