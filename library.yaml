@@ -87,5 +87,21 @@ library:
       description: Generate production-quality SVG technical diagrams from natural language. 7 visual styles, 14+ diagram types (including UML), 40+ product icons, PNG export via rsvg-convert.
       source: https://github.com/yizhiyanhua-ai/fireworks-tech-graph/blob/main/SKILL.md
 
+    - name: research-cite
+      description: Find real, verified citations for any text and import them into Zotero collections. Searches Crossref, PubMed, and Semantic Scholar, verifies every reference through a 3-level pipeline (DOI resolution, metadata cross-check, abstract semantic support), then imports verified items into Zotero via the Web API.
+      source: https://github.com/restrolla/skills/blob/main/research-cite/SKILL.md
+
+    - name: quarto-to-docx
+      description: Convert Quarto .qmd files to DOCX/Word with bulletproof citation handling. Validates citation keys against .bib files, auto-fixes common issues (broken bibliography paths, missing entries, YAML misconfig), renders to DOCX via quarto, then post-validates the output to catch unresolved citations or missing bibliography sections. Never refuses to render — always produces a valid DOCX.
+      source: https://github.com/restrolla/skills/blob/main/quarto-to-docx/SKILL.md
+
+    - name: map-questions
+      description: Generate NWEA MAP Growth practice test questions for Math and Reading. Produces PDF question booklets and separate answer keys with solutions, distractor analysis, and RIT band labels. Math questions include TikZ diagrams.
+      source: https://github.com/restrolla/skills/blob/main/map-questions/SKILL.md
+
+    - name: diann-analysis
+      description: DIA-NN 2.3.2 headless DIA proteomics pipeline. Supports spectral library generation, library-free analysis, and LFQ quantification with .NET runtime configuration for stability.
+      source: https://github.com/restrolla/skills/blob/main/diann-analysis/SKILL.md
+
   agents: []
   prompts: []
