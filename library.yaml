@@ -105,3 +105,7 @@ library:
 
   agents: []
   prompts: []
+
+    - name: pdf-to-markdown
+      description: Extract PDF content to clean markdown with inline figure descriptions, markdown tables, and proper paragraph formatting. Uses mimo-v2.5 for vision tasks. DAG workflow with parallel processing and QC checks.
+      source: https://github.com/restrolla/skills/blob/main/pdf-to-markdown/SKILL.md
