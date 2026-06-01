@@ -103,9 +103,33 @@ library:
       description: DIA-NN 2.3.2 headless DIA proteomics pipeline. Supports spectral library generation, library-free analysis, and LFQ quantification with .NET runtime configuration for stability.
       source: https://github.com/restrolla/skills/blob/main/diann-analysis/SKILL.md
 
-  agents: []
-  prompts: []
-
     - name: pdf-to-markdown
       description: Extract PDF content to clean markdown with inline figure descriptions, markdown tables, and proper paragraph formatting. Uses mimo-v2.5 for vision tasks. DAG workflow with parallel processing and QC checks.
       source: https://github.com/restrolla/skills/blob/main/pdf-to-markdown/SKILL.md
+
+    - name: boltz2-local-gpu
+      description: Run Boltz-2 structure prediction on local GPUs with multi-GPU parallel dispatch, checkpointing, and result parsing. Includes the critical TensorBoard bug fix that must be applied on every run.
+      source: https://github.com/restrolla/skills/blob/main/boltz2-local-gpu/SKILL.md
+
+    - name: boltz-parcc
+      description: Run Boltz-2 protein structure prediction on UPenn's PARCC Betty HPC cluster (DGX B200 GPUs, Slurm). Covers Kerberos auth, conda environment setup, Slurm job submission, monitoring, and teardown.
+      source: https://github.com/restrolla/skills/blob/main/boltz-parcc/SKILL.md
+
+    - name: boltz-remote-server
+      description: Deploy and run Boltz-2 structure prediction on remote GPU servers (RunPod, ThunderCompute, vast.ai, Lambda Labs, or any SSH-accessible Linux box with NVIDIA GPUs).
+      source: https://github.com/restrolla/skills/blob/main/boltz-remote-server/SKILL.md
+
+    - name: esmfold2-parcc
+      description: Run ESMFold2 protein structure prediction on UPenn's PARCC Betty HPC cluster (DGX B200 GPUs, Slurm). Covers conda environment setup, MSA handling, Slurm job submission, and result retrieval.
+      source: https://github.com/restrolla/skills/blob/main/esmfold2-parcc/SKILL.md
+
+    - name: mmseqs2-msa-gpu
+      description: Generate multiple sequence alignments (MSAs) using MMseqs2 with GPU server mode. Batch a3m generation for structure prediction pipelines.
+      source: https://github.com/restrolla/skills/blob/main/mmseqs2-msa-gpu/SKILL.md
+
+    - name: research-planning
+      description: Plan a research project by decomposing it into a task DAG with dependencies, model assignments, resource estimates, and MANDATORY checks. Every plan must include both code tests (TDD) and scientific controls.
+      source: https://github.com/restrolla/skills/blob/main/research-planning/SKILL.md
+
+  agents: []
+  prompts: []
