@@ -131,5 +131,9 @@ library:
       description: Plan a research project by decomposing it into a task DAG with dependencies, model assignments, resource estimates, and MANDATORY checks. Every plan must include both code tests (TDD) and scientific controls.
       source: https://github.com/restrolla/skills/blob/main/research-planning/SKILL.md
 
+    - name: cns-paper-maker
+      description: Design, critique, and upgrade biological/biomedical study architectures toward Cell, Nature, and Science standards. Covers 12-step mandatory workflow (live search, CNS pivot, causality, orthogonal validation, human anchoring, figure architecture, scoring), 10 field-specific technique stacks, 40 technique cards, anti-pattern detection, and CNS readiness scoring rubric. Includes supplementary methods from current research covering neuroscience genetics, organoids/PDX/iPSCs, GPU-accelerated workflows, novel pharmacology, and AI/virtual cell models.
+      source: https://github.com/restrolla/skills/blob/main/cns-paper-maker/SKILL.md
+
   agents: []
   prompts: []
