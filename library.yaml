@@ -112,7 +112,7 @@ library:
       source: https://github.com/restrolla/skills/blob/main/boltz2-local-gpu/SKILL.md
 
     - name: boltz-parcc
-      description: Run Boltz-2 protein structure prediction on UPenn's PARCC Betty HPC cluster (DGX B200 GPUs, Slurm). Covers Kerberos auth, conda environment setup, Slurm job submission, monitoring, and teardown.
+      description: Run Boltz-2 protein structure prediction on UPenn's PARCC Betty HPC cluster (DGX B200 GPUs, Slurm). Covers Kerberos auth including AFK-safe klist + /usr/bin/kinit -R renewal preflight, conda environment setup, Slurm job submission, monitoring, and teardown.
       source: https://github.com/restrolla/skills/blob/main/boltz-parcc/SKILL.md
 
     - name: boltz-remote-server
@@ -120,7 +120,7 @@ library:
       source: https://github.com/restrolla/skills/blob/main/boltz-remote-server/SKILL.md
 
     - name: esmfold2-parcc
-      description: Run ESMFold2 protein structure prediction on UPenn's PARCC Betty HPC cluster (DGX B200 GPUs, Slurm). Covers conda environment setup, MSA handling, Slurm job submission, and result retrieval.
+      description: Run ESMFold2 protein structure prediction on UPenn's PARCC Betty HPC cluster (DGX B200 GPUs, Slurm). Covers conda environment setup, MSA handling, AFK-safe Kerberos renewal preflight, Slurm job submission, and result retrieval.
       source: https://github.com/restrolla/skills/blob/main/esmfold2-parcc/SKILL.md
 
     - name: mmseqs2-msa-gpu
@@ -128,7 +128,7 @@ library:
       source: https://github.com/restrolla/skills/blob/main/mmseqs2-msa-gpu/SKILL.md
 
     - name: research-planning
-      description: Plan a research project by decomposing it into a task DAG with dependencies, model assignments, resource estimates, and MANDATORY checks. Every plan must include both code tests (TDD) and scientific controls.
+      description: Plan a research project by decomposing it into a task DAG with dependencies, model assignments, resource estimates, and MANDATORY checks. Every plan must include code tests, scientific controls, and preflight checks including remote-HPC Kerberos/SSH auth renewal before AFK /run.
       source: https://github.com/restrolla/skills/blob/main/research-planning/SKILL.md
 
     - name: cns-paper-maker
