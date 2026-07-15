@@ -40,7 +40,7 @@ library:
       source: https://github.com/restrolla/skills/blob/main/latex-document-skill/SKILL.md
 
     - name: ggplot2-viz
-      description: Create polished, publication-ready data visualizations in R using ggplot2 with tidyverse-first wrangling. Chart-type-to-recipe routing, house theme_pub() + Okabe-Ito/viridis palettes, and explicit grammar routing across ggplot2 / tidyplots / ggalign (never mixed in one figure). Covers scatter, bar, line/time-series, distributions, heatmaps, faceted and multi-panel (patchwork), clustered heatmaps (ggalign), and publication export.
+      description: Create polished, publication-ready data visualizations in R using ggplot2 with tidyverse-first wrangling. Chart-type-to-recipe routing, Nature-style house theme (theme_nature() with Arial-family font, plain weight, no gridlines, 1:1 square panels) plus Okabe-Ito/viridis palettes, and explicit grammar routing across ggplot2 / tidyplots / ggalign (never mixed in one figure). Remakes matplotlib/seaborn scripts or rendered PNG/JPEG images in R. Covers scatter, bar, line/time-series, distributions, heatmaps, faceted and multi-panel (patchwork), clustered heatmaps (ggalign), and publication export (ragg + pdffonts embed verification).
       source: https://github.com/restrolla/skills/blob/main/ggplot2-viz/SKILL.md
 
     - name: graphpad-prism
