@@ -139,5 +139,13 @@ library:
       description: Design, critique, and upgrade biological/biomedical study architectures toward Cell, Nature, and Science standards. Covers 12-step mandatory workflow (live search, CNS pivot, causality, orthogonal validation, human anchoring, figure architecture, scoring), 10 field-specific technique stacks, 40 technique cards, anti-pattern detection, and CNS readiness scoring rubric. Includes supplementary methods from current research covering neuroscience genetics, organoids/PDX/iPSCs, GPU-accelerated workflows, novel pharmacology, and AI/virtual cell models.
       source: https://github.com/restrolla/skills/blob/main/cns-paper-maker/SKILL.md
 
+    - name: security-review
+      description: Evidence-driven security and privacy review for any source repository. Threat modeling, hostile-repository safeguards, SAST/secrets/SCA/IaC/CI coverage accounting, source-to-sink and business-logic reasoning, PHI and research-data screening, optional hardening with behavioral parity (red/green contract testing), and a fail-closed PASS/BLOCK/INCOMPLETE audit trail. Offline/pinned tooling; treats repos, configs, hooks, fixtures, and scanner output as untrusted.
+      source: https://github.com/restrolla/skills/blob/main/security-review/SKILL.md
+
+    - name: security-scan
+      description: Final-pass security audit for AI-generated UI components — the shipping gate at the end of the build loop (after batch-build → ui-verify → ui-vision-review → tech-debt-sweeper). Hunts XSS, injection, broken access control, and ARIA gaps in generated components, then emits a severity-ranked report that blocks the build on anything High or Critical.
+      source: https://github.com/restrolla/skills/blob/main/security-scan/SKILL.md
+
   agents: []
   prompts: []
